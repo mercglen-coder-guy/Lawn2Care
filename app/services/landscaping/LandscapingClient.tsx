@@ -164,7 +164,7 @@ export default function LandscapingClient() {
               className="relative h-[500px] lg:h-[700px] rounded-3xl overflow-hidden shadow-2xl group"
             >
               <Image 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop" 
+                src="https://picsum.photos/seed/landscapinghero/1200/800" 
                 alt="Luxury Landscaping in Mississauga" 
                 fill 
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -274,9 +274,9 @@ export default function LandscapingClient() {
 
             {/* Before/After Slider */}
             <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden select-none group shadow-2xl">
-              <Image src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop" fill className="object-cover" alt="After Landscape Lighting" referrerPolicy="no-referrer" />
+              <Image src="https://picsum.photos/seed/after/1200/800" fill className="object-cover" alt="After Landscape Lighting" referrerPolicy="no-referrer" />
               <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}>
-                 <Image src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1200&auto=format&fit=crop" fill className="object-cover" alt="Before Landscape Lighting" referrerPolicy="no-referrer" />
+                 <Image src="https://picsum.photos/seed/before/1200/800" fill className="object-cover" alt="Before Landscape Lighting" referrerPolicy="no-referrer" />
               </div>
               <input 
                 type="range" min="0" max="100" value={sliderPos} 

@@ -14,7 +14,7 @@ export default function AIPlanningPage() {
     <div className="bg-light min-h-screen pb-24">
       {/* Hero Section */}
       <section className="bg-primary text-white py-20 md:py-28 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/aiplanning/1920/1080')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 text-secondary font-bold text-sm mb-6 border border-secondary/30">
             <Sparkles size={16} /> Powered by Google Gemini
@@ -72,7 +72,7 @@ export default function AIPlanningPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-medium mb-6">AI-Assisted Planning. Human-Engineered Execution.</h2>
           <p className="text-lg text-white/80 mb-10">
-            These tools are designed to help you explore possibilities and understand costs without any pressure. When you're ready, our expert team will visit your property to verify measurements, assess soil conditions, and provide a binding quote.
+            These tools are designed to help you explore possibilities and understand costs without any pressure. When you&apos;re ready, our expert team will visit your property to verify measurements, assess soil conditions, and provide a binding quote.
           </p>
           <Link href="/#contact" className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-secondary text-white font-bold hover:bg-secondary/90 transition-colors">
             Book Your Free On-Site Assessment <ArrowRight size={20} />

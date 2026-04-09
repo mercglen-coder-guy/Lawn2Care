@@ -61,7 +61,7 @@ export function Intro() {
             className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image 
-              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=800&auto=format&fit=crop" 
+              src="https://picsum.photos/seed/intro/800/600" 
               alt="Our team working on a hardscaping project in Mississauga" 
               fill 
               className="object-cover"

@@ -20,7 +20,7 @@ export async function generateSmartEstimate(data: any) {
       }
     });
 
-    const estimate = JSON.parse(response.text() || '{}');
+    const estimate = JSON.parse(response.text || '{}');
     return { success: true, estimate };
   } catch (error) {
     console.error('Error generating estimate:', error);

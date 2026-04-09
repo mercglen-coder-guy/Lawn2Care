@@ -34,7 +34,7 @@ export default function BlogPost1() {
       {/* Blog Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
         <div className="relative h-[400px] rounded-2xl overflow-hidden mb-12 shadow-lg">
-          <Image src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1200&auto=format&fit=crop" alt="Interlocking driveway in Mississauga" fill className="object-cover" />
+          <Image src="https://picsum.photos/seed/drivewayblog/1200/800" alt="Interlocking driveway in Mississauga" fill className="object-cover" />
         </div>
 
         <div className="prose prose-lg prose-primary max-w-none text-dark/80">

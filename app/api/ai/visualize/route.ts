@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
       }
     });
 
-    const json = JSON.parse(response.text() || '{}');
+    const json = JSON.parse(response.text || '{}');
     return NextResponse.json(json);
   } catch (error) {
     console.error('Error in visualizer:', error);

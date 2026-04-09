@@ -10,7 +10,7 @@ export function AIFeatures() {
 
   return (
     <section className="py-24 bg-light relative overflow-hidden" id="ai-planning">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-5 mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/aifeatures/1920/1080')] bg-cover bg-center opacity-5 mix-blend-overlay pointer-events-none"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
