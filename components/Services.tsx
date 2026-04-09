@@ -10,37 +10,37 @@ export function Services() {
     {
       title: "Interlocking & Driveways",
       description: "Custom interlock designs, driveway installation & repair",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/driveway/600/400",
       link: "/blog/interlocking-driveways-mississauga"
     },
     {
       title: "Patios & Walkways",
       description: "Beautiful stone patios, garden paths & entranceways",
-      image: "https://images.unsplash.com/photo-1558904541-efa843a96f09?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/patio/600/400",
       link: "/services/custom-stone-patios"
     },
     {
       title: "Garden Design & Planting",
       description: "Custom landscape design, flower beds & shrub installation",
-      image: "https://images.unsplash.com/photo-1598902108854-10e335adac99?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/garden/600/400",
       link: "/blog/custom-garden-design"
     },
     {
       title: "Lawn Care & Sod",
       description: "Professional lawn maintenance, sod installation & renewal",
-      image: "https://images.unsplash.com/photo-1592424005688-57380dc5f8e7?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/lawn/600/400",
       link: "/#contact"
     },
     {
       title: "Retaining Walls",
       description: "Structural & decorative walls for elevation & drainage",
-      image: "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb65?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/retainingwall/600/400",
       link: "/services/retaining-walls"
     },
     {
       title: "Seasonal Maintenance",
       description: "Spring cleanup, fall preparation & snow removal",
-      image: "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?q=80&w=600&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/maintenance/600/400",
       link: "/#contact"
     }
   ];

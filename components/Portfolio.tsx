@@ -14,42 +14,42 @@ export function Portfolio() {
       title: "Lorne Park Estate Driveway",
       category: "Interlock",
       tag: "Lorne Park • Interlock • $45K",
-      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/driveway1/800/800",
       size: "large"
     },
     {
       title: "Credit Valley Backyard Oasis",
       category: "Patios",
       tag: "Credit Valley • Patio • $28K",
-      image: "https://images.unsplash.com/photo-1574360773981-84e861d8717d?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/patio1/800/800",
       size: "tall"
     },
     {
       title: "Port Credit Garden Renovation",
       category: "Gardens",
       tag: "Port Credit • Garden • $18K",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/garden1/800/800",
       size: "wide"
     },
     {
       title: "Erin Mills Commercial Property",
       category: "Commercial",
       tag: "Erin Mills • Commercial • $62K",
-      image: "https://images.unsplash.com/photo-1592424005688-57380dc5f8e7?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/commercial1/800/800",
       size: "large"
     },
     {
       title: "Meadowvale Walkway & Steps",
       category: "Interlock",
       tag: "Meadowvale • Walkway • $12K",
-      image: "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb65?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/walkway1/800/800",
       size: "tall"
     },
     {
       title: "Clarkson Outdoor Kitchen",
       category: "Patios",
       tag: "Clarkson • Hardscape • $38K",
-      image: "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?q=80&w=800&auto=format&fit=crop",
+      image: "https://picsum.photos/seed/kitchen1/800/800",
       size: "wide"
     }
   ];

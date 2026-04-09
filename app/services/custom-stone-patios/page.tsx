@@ -22,7 +22,7 @@ export default function CustomStonePatios() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <Image 
-          src="https://images.unsplash.com/photo-1558904541-efa843a96f09?q=80&w=1920&auto=format&fit=crop" 
+          src="https://picsum.photos/seed/patiohero/1920/1080" 
           alt="Beautiful custom stone patio" 
           fill 
           className="object-cover"
@@ -70,18 +70,18 @@ export default function CustomStonePatios() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="relative h-64 rounded-2xl overflow-hidden">
-                  <Image src="https://images.unsplash.com/photo-1574360773981-84e861d8717d?q=80&w=600&auto=format&fit=crop" alt="Patio detail" fill className="object-cover" />
+                  <Image src="https://picsum.photos/seed/patiodetail/600/400" alt="Patio detail" fill className="object-cover" />
                 </div>
                 <div className="relative h-48 rounded-2xl overflow-hidden">
-                  <Image src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?q=80&w=600&auto=format&fit=crop" alt="Patio seating" fill className="object-cover" />
+                  <Image src="https://picsum.photos/seed/patioseating/600/400" alt="Patio seating" fill className="object-cover" />
                 </div>
               </div>
               <div className="space-y-4 pt-8">
                 <div className="relative h-48 rounded-2xl overflow-hidden">
-                  <Image src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop" alt="Patio fire pit" fill className="object-cover" />
+                  <Image src="https://picsum.photos/seed/patiofirepit/600/400" alt="Patio fire pit" fill className="object-cover" />
                 </div>
                 <div className="relative h-64 rounded-2xl overflow-hidden">
-                  <Image src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=600&auto=format&fit=crop" alt="Patio dining" fill className="object-cover" />
+                  <Image src="https://picsum.photos/seed/patiodining/600/400" alt="Patio dining" fill className="object-cover" />
                 </div>
               </div>
             </div>

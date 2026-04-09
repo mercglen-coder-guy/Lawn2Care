@@ -22,7 +22,7 @@ export default function RetainingWalls() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <Image 
-          src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb65?q=80&w=1920&auto=format&fit=crop" 
+          src="https://picsum.photos/seed/retainingwallhero/1920/1080" 
           alt="Stunning retaining wall" 
           fill 
           className="object-cover"
@@ -46,7 +46,7 @@ export default function RetainingWalls() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             
             <div className="order-2 lg:order-1 relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
-              <Image src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=800&auto=format&fit=crop" alt="Retaining wall detail" fill className="object-cover" />
+              <Image src="https://picsum.photos/seed/retainingwalldetail/800/600" alt="Retaining wall detail" fill className="object-cover" />
               <div className="absolute inset-0 border-4 border-white/20 rounded-3xl pointer-events-none"></div>
             </div>
 
