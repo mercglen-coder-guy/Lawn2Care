@@ -10,7 +10,7 @@ export function Hero() {
       {/* Background Image/Video Fallback */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="https://picsum.photos/seed/hero/1920/1080" 
+          src="https://images.unsplash.com/photo-1734079692160-fcbe4be6ab96?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Beautiful landscaping project in Mississauga" 
           fill 
           className="object-cover"

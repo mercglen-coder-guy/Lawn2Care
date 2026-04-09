@@ -22,7 +22,7 @@ export default function CustomStonePatios() {
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <Image 
-          src="https://picsum.photos/seed/patiohero/1920/1080" 
+          src="https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Beautiful custom stone patio" 
           fill 
           className="object-cover"
