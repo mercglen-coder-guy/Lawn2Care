@@ -28,16 +28,27 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-[1.1] tracking-tight mb-6"
           >
-            Transforming Mississauga Homes into Stunning Outdoor Sanctuaries
+            Mississauga&apos;s Top-Rated Lawn Care &amp; 20cm By-Law Compliance
           </motion.h1>
           
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
+            className="mb-8"
+          >
+            <div className="inline-block bg-red-600/90 backdrop-blur-md border border-red-500/50 text-white px-4 py-2 rounded-lg font-medium shadow-lg">
+              <span className="font-bold">City 311 Backlog?</span> Don&apos;t wait for June. We fix 311-reported plow damage and sod tearing this week.
+            </div>
+          </motion.div>
+
           <motion.p 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="text-white/90 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl"
           >
-            Award-winning landscaping & hardscaping since 2018. 200+ projects completed across Mississauga. 5.0★ rated. Fully insured & WSIB compliant.
+            Award-winning landscaping &amp; hardscaping since 2018. 200+ projects completed across Mississauga. 5.0★ rated. Fully insured &amp; WSIB compliant.
           </motion.p>
 
           <motion.div 

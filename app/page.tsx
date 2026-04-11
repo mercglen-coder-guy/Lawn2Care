@@ -2,6 +2,7 @@ import { Hero } from '@/components/Hero';
 import { TrustBar } from '@/components/TrustBar';
 import { Intro } from '@/components/Intro';
 import { Services } from '@/components/Services';
+import { CityComparison } from '@/components/CityComparison';
 import { AIFeatures } from '@/components/AIFeatures';
 import { USPs } from '@/components/USPs';
 import { Portfolio } from '@/components/Portfolio';
@@ -18,6 +19,7 @@ export default function Home() {
       <TrustBar />
       <Intro />
       <Services />
+      <CityComparison />
       <AIFeatures />
       <USPs />
       <Portfolio />

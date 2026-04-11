@@ -5,6 +5,7 @@ import { PreHeader } from "@/components/PreHeader";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { AdvisorChat } from "@/components/ai/AdvisorChat";
+import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -124,9 +125,10 @@ export default function RootLayout({
         />
         <PreHeader />
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow pb-16 md:pb-0">{children}</main>
         <Footer />
         <AdvisorChat />
+        <StickyMobileCTA />
       </body>
     </html>
   );
