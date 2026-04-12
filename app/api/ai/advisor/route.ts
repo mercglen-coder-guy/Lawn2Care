@@ -1,7 +1,5 @@
-import { GoogleGenAI } from '@google/genai';
 import { NextRequest, NextResponse } from 'next/server';
-
-const ai = new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY });
+import { getGemini } from '@/lib/gemini';
 
 const systemPrompt = `You are Lawn2Care's AI Landscape Advisor for Mississauga, ON.
 - Answer questions about interlock, patios, sod, lighting, irrigation, maintenance
@@ -13,6 +11,7 @@ const systemPrompt = `You are Lawn2Care's AI Landscape Advisor for Mississauga, 
 
 export async function POST(req: NextRequest) {
   try {
+    const ai = getGemini();
     const { messages } = await req.json();
 
     const formattedMessages = messages.map((m: any) => ({

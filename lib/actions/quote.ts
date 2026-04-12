@@ -1,11 +1,10 @@
 'use server';
 
-import { GoogleGenAI } from '@google/genai';
-
-const ai = new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY });
+import { getGemini } from '@/lib/gemini';
 
 export async function generateSmartEstimate(data: any) {
   try {
+    const ai = getGemini();
     const pricingContext = `INTERLOCK: $18-$28/sqft | PATIO: $22-$35/sqft | SOD: $1.50-$3/sqft | LIGHTING: $120-$250/fixture`;
     
     const prompt = `Calculate estimate for: ${JSON.stringify(data)}. 

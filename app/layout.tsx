@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { AdvisorChat } from "@/components/ai/AdvisorChat";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
+import { Analytics } from "@vercel/analytics/next";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -129,6 +130,7 @@ export default function RootLayout({
         <Footer />
         <AdvisorChat />
         <StickyMobileCTA />
+        <Analytics />
       </body>
     </html>
   );

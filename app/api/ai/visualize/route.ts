@@ -1,10 +1,9 @@
-import { GoogleGenAI } from '@google/genai';
 import { NextRequest, NextResponse } from 'next/server';
-
-const ai = new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY });
+import { getGemini } from '@/lib/gemini';
 
 export async function POST(req: NextRequest) {
   try {
+    const ai = getGemini();
     const { imageBase64, style } = await req.json();
 
     if (!imageBase64) {
