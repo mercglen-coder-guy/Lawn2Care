@@ -5,7 +5,6 @@ import { Services } from '@/components/Services';
 import { CityComparison } from '@/components/CityComparison';
 import { AIFeatures } from '@/components/AIFeatures';
 import { USPs } from '@/components/USPs';
-import { Portfolio } from '@/components/Portfolio';
 import { Process } from '@/components/Process';
 import { Testimonials } from '@/components/Testimonials';
 import { ServiceArea } from '@/components/ServiceArea';
@@ -22,7 +21,6 @@ export default function Home() {
       <CityComparison />
       <AIFeatures />
       <USPs />
-      <Portfolio />
       <Process />
       <Testimonials />
       <ServiceArea />
