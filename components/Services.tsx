@@ -81,7 +81,7 @@ export function Services() {
                 <div className="relative h-60 w-full overflow-hidden">
                   <Image 
                     src={service.image} 
-                    alt={service.title} 
+                    alt={`Example of ${service.title.toLowerCase()} service in a residential Mississauga home`} 
                     fill 
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
@@ -91,7 +91,7 @@ export function Services() {
                   <h4 className="text-xl font-bold text-primary mb-3">{service.title}</h4>
                   <p className="text-dark/70 mb-6 flex-grow">{service.description}</p>
                   <div className="flex items-center text-secondary font-semibold text-sm group-hover:text-[#B8954F] transition-colors mt-auto">
-                    Learn More 
+                    <span className="sr-only">Learn more about our </span>{service.title} services 
                     <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>

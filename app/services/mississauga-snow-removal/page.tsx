@@ -79,7 +79,7 @@ export default function MississaugaSnowRemoval() {
         <div className="absolute inset-0 bg-slate-900/80 z-10" />
         <Image 
           src="https://images.unsplash.com/photo-1542360663-8b401365e0d9?q=80&w=1920&auto=format&fit=crop" 
-          alt="Snow removal truck clearing a driveway in Mississauga"
+          alt="Heavy duty snow removal truck clearing a large residential driveway during a winter storm in Mississauga"
           fill
           className="object-cover z-0 grayscale-[30%]"
           priority

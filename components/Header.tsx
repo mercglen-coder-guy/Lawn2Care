@@ -36,7 +36,7 @@ export function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-5 lg:gap-8">
+        <nav aria-label="Main Navigation" className="hidden md:flex items-center gap-5 lg:gap-8">
           {navItems.map((item) => (
             <Link
               key={item.name}
@@ -53,6 +53,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-3 lg:gap-4 shrink-0">
           <Link
             href="/#contact"
+            title="Get a free estimate for landscaping and snow removal"
             className="px-5 lg:px-6 py-2 lg:py-2.5 rounded-full text-sm font-semibold bg-gradient-to-br from-secondary to-[#B8954F] text-white shadow-md hover:shadow-lg hover:scale-105 transition-all whitespace-nowrap"
           >
             Get Free Estimate

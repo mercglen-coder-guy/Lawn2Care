@@ -21,8 +21,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lawn2care.com"),
   title: {
-    default: "Lawn2Care Services LTD | Mississauga, ON",
+    default: "Top Lawn Care & Landscaping in Mississauga | Lawn2Care",
     template: "%s | Lawn2Care Mississauga",
   },
   description:
@@ -42,8 +43,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://expertlandscaping.ca",
-    title: "Lawn2Care Services LTD | Mississauga, ON",
+    url: "https://lawn2care.com",
+    title: "Top Lawn Care & Landscaping in Mississauga | Lawn2Care",
     description:
       "Transforming Mississauga Homes into Stunning Outdoor Sanctuaries.",
     siteName: "Lawn2Care Services LTD",
@@ -59,6 +60,16 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: "https://lawn2care.com",
+  },
+};
+
+import { Viewport } from 'next';
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1.0,
 };
 
 export default function RootLayout({
@@ -72,7 +83,7 @@ export default function RootLayout({
     name: "Lawn2Care Services LTD",
     description:
       "Professional landscaping and hardscaping services in Mississauga, ON. Custom garden design, sod installation, interlock, patios, lighting, and irrigation.",
-    url: "https://lawn2care.ca",
+    url: "https://lawn2care.com",
     telephone: "+1-905-320-0475",
     email: "info@lawn2care.com",
     address: {

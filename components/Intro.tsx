@@ -26,10 +26,14 @@ export function Intro() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-primary mb-6 leading-tight">
               Expert Landscaping & Hardscaping Services in Mississauga
             </h2>
+            <p className="text-lg text-dark/80 leading-relaxed mb-6">
+              At Lawn2Care, we go beyond mere grass cutting. As Mississauga&apos;s premier property maintenance and landscape design specialists, we provide end-to-end outdoor transformations. From meticulous sod installation suited perfectly to Ontario&apos;s heavy clay soil, to custom interlocking stone driveways that withstand severe freeze-thaw cycles, we craft spaces that last.
+            </p>
             <p className="text-lg text-dark/80 leading-relaxed mb-8">
-              We provide professional landscaping and hardscaping services designed to enhance the beauty and functionality of your outdoor space. From custom garden designs and lawn care to patios, walkways, and driveways, our team delivers high-quality craftsmanship tailored to your vision and budget.
+              We understand the nuances of the local ecosystem and the city&apos;s stringent by-laws, ensuring your project is handled with technical precision, fully insured, and completely guaranteed. Whether you need an expansive outdoor living area or robust retaining walls for property grading, our certified crews bring award-winning expertise directly to your doorstep.
             </p>
             
+            <h3 className="text-xl font-bold text-primary mb-4">Why Mississauga Homeowners Choose Us:</h3>
             <ul className="space-y-4 mb-10">
               {points.map((point, index) => (
                 <motion.li 
@@ -62,7 +66,7 @@ export function Intro() {
           >
             <Image 
               src="https://plus.unsplash.com/premium_photo-1724701624563-a7bb454393c4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-              alt="Our team working on a hardscaping project in Mississauga" 
+              alt="Lawn2Care team working on a custom stone patio hardscaping project in a residential Mississauga home" 
               fill 
               className="object-cover"
               referrerPolicy="no-referrer"

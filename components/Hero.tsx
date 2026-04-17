@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image 
           src="https://images.unsplash.com/photo-1734079692160-fcbe4be6ab96?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Beautiful landscaping project in Mississauga" 
+          alt="Beautifully landscaped interlocking driveway and fresh sod in a Mississauga front yard" 
           fill 
           className="object-cover"
           priority
@@ -28,7 +28,7 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-[1.1] tracking-tight mb-6"
           >
-            Mississauga&apos;s Top-Rated Lawn Care &amp; 20cm By-Law Compliance
+            Mississauga&apos;s Top-Rated Lawn Care &amp; Landscaping Services
           </motion.h1>
           
           <motion.div

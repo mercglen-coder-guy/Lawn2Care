@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://expertlandscaping.ca/sitemap.xml',
+    sitemap: 'https://lawn2care.com/sitemap.xml',
   };
 }

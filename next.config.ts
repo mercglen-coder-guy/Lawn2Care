@@ -2,6 +2,16 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    return [
+      { source: '/lawn-care', destination: '/services/landscaping', permanent: true },
+      { source: '/about', destination: '/#about', permanent: true },
+      { source: '/contact', destination: '/#contact', permanent: true },
+      { source: '/portfolio', destination: '/', permanent: true },
+      { source: '/landscaping', destination: '/services/landscaping', permanent: true },
+      { source: '/snow-removal', destination: '/services/mississauga-snow-removal', permanent: true },
+    ]
+  },
   typescript: {
     ignoreBuildErrors: false,
   },

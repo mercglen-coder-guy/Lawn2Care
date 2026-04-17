@@ -14,7 +14,8 @@ const blogPosts = [
     excerpt: "The City of Mississauga has enacted a new Turfgrass and Prohibited Plant Species By-law. Learn how to keep your lawn compliant and avoid hefty fines.",
     date: "April 8, 2026",
     category: "Local News",
-    image: "https://picsum.photos/seed/grasslaw/800/500"
+    image: "https://picsum.photos/seed/grasslaw/800/500",
+    alt: "Overgrown grass that violates the Mississauga 20cm bylaw"
   },
   {
     title: "Interlocking Driveways in Mississauga: A Complete Guide",
@@ -22,7 +23,8 @@ const blogPosts = [
     excerpt: "Discover the benefits, costs, and design options for interlocking driveways. Boost your home's curb appeal with a durable and stylish driveway.",
     date: "March 15, 2026",
     category: "Hardscaping",
-    image: "https://picsum.photos/seed/interlock/800/500"
+    image: "https://picsum.photos/seed/interlock/800/500",
+    alt: "Beautiful interlocking driveway example in the snow"
   },
   {
     title: "Custom Garden Design: Transforming Your Outdoor Space",
@@ -30,7 +32,8 @@ const blogPosts = [
     excerpt: "From native plant selection to layout planning, learn how a custom garden design can turn your backyard into a personal oasis.",
     date: "February 28, 2026",
     category: "Landscaping",
-    image: "https://picsum.photos/seed/garden/800/500"
+    image: "https://picsum.photos/seed/garden/800/500",
+    alt: "Custom garden design in Mississauga backyard"
   }
 ];
 
@@ -53,7 +56,7 @@ export default function BlogIndex() {
               <Link href={`/blog/${post.slug}`} className="block relative h-56 overflow-hidden group">
                 <Image 
                   src={post.image} 
-                  alt={post.title} 
+                  alt={post.alt} 
                   fill 
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"

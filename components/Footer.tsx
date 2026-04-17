@@ -22,20 +22,20 @@ export function Footer() {
               Transforming outdoor spaces with quality craftsmanship since 2018. We are Mississauga&apos;s trusted choice for premium landscaping and hardscaping.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
+              <a href="#" aria-label="Follow us on Instagram" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
+              <a href="#" aria-label="Like us on Facebook" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
+              <a href="#" aria-label="Follow us on Twitter" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-secondary hover:border-secondary hover:text-white transition-all">
                 <Twitter size={18} />
               </a>
             </div>
           </div>
 
           {/* Services */}
-          <div>
+          <nav aria-label="Footer Services">
             <h4 className="text-white font-semibold mb-6">Our Services</h4>
             <ul className="space-y-3 text-sm">
               <li><Link href="/blog/interlocking-driveways-mississauga" className="hover:text-secondary transition-colors">Interlocking & Driveways</Link></li>
@@ -45,10 +45,10 @@ export function Footer() {
               <li><Link href="/services/retaining-walls" className="hover:text-secondary transition-colors">Retaining Walls</Link></li>
               <li><Link href="/#contact" className="hover:text-secondary transition-colors">Seasonal Maintenance</Link></li>
             </ul>
-          </div>
+          </nav>
 
           {/* Company */}
-          <div>
+          <nav aria-label="Footer Company Info">
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-3 text-sm">
               <li><Link href="/#about" className="hover:text-secondary transition-colors">About Us</Link></li>
@@ -58,7 +58,7 @@ export function Footer() {
               <li><Link href="/#faq" className="hover:text-secondary transition-colors">FAQ</Link></li>
               <li><Link href="/#contact" className="hover:text-secondary transition-colors">Contact Us</Link></li>
             </ul>
-          </div>
+          </nav>
 
           {/* Contact */}
           <div>

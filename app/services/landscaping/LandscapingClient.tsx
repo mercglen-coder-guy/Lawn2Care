@@ -165,7 +165,7 @@ export default function LandscapingClient() {
             >
               <Image 
                 src="https://picsum.photos/seed/landscapinghero/1200/800" 
-                alt="Luxury Landscaping in Mississauga" 
+                alt="Luxury landscaping front yard makeover in Mississauga featuring interlocking stone and lush garden beds" 
                 fill 
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -274,9 +274,9 @@ export default function LandscapingClient() {
 
             {/* Before/After Slider */}
             <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden select-none group shadow-2xl">
-              <Image src="https://picsum.photos/seed/after/1200/800" fill className="object-cover" alt="After Landscape Lighting" referrerPolicy="no-referrer" />
+              <Image src="https://picsum.photos/seed/after/1200/800" fill className="object-cover" alt="Mississauga home exterior transformed with professional landscape lighting and new sod installation" referrerPolicy="no-referrer" />
               <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}>
-                 <Image src="https://picsum.photos/seed/before/1200/800" fill className="object-cover" alt="Before Landscape Lighting" referrerPolicy="no-referrer" />
+                 <Image src="https://picsum.photos/seed/before/1200/800" fill className="object-cover" alt="Mississauga home exterior before landscape renovation and lighting installation" referrerPolicy="no-referrer" />
               </div>
               <input 
                 type="range" min="0" max="100" value={sliderPos} 
